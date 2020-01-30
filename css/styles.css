@@ -1,0 +1,262 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121414;
+}
+
+.rounded15 {
+    border-radius: 15px;
+}
+
+.display-1 {
+    font-family: SF Compact Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.body24 {
+    font-family: SF Compact Display;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.body34 {
+    font-family: SF Compact Display;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 41px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+.hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('../assets/hero_background.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.normal-text {
+    font-weight: 500;
+}
+
+.body20 {
+    font-family: SF Compact Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+/*components*/
+.date-component {
+    width: 143px;
+    height: 53px;
+    /* Gray 6 */
+    background: #F2F2F2;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.date-component p {
+    padding-left: 8px;
+    opacity: 1 !important;
+}
+
+/*button*/
+.btn-base {
+    width: 380px;
+    height: 60px;
+    /* coolbet/colors/primaryBlueColor */
+    background: #17BEFF;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-outlined {
+    width: 100%;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #17BEFF;
+    color: #17BEFF;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 7px;
+}
+
+.card {
+    background-color: #222127;
+    width: 380px;
+    height: 205px;
+    position: relative;
+}
+
+.card-win {
+    background-color: #222127;
+    width: 100%;
+    height: 205px;
+}
+
+.card-prize {
+    background-color: #222127;
+    width:85%;
+    padding: 32px;
+}
+
+.explainer {
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+
+
+.card-w {
+    padding-left: 16px;
+    width: 231px;
+}
+
+.center {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    align-items: center;
+}
+
+/*grid system*/
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+.col-3 {
+    max-width: 380px;
+}
+
+.col-6 {
+    max-width: 1200px;
+    width: 50%;
+}
+
+.col-8 {
+    max-width: 1200px;
+    width: 60%;
+}
+
+.logo {
+    width: 216px;
+    height: 26px;
+}
+
+.date-row {
+    width: 338px;
+    display: flex;
+}
+
+.date-row .cinza {
+    padding-left: 32px;
+}
+
+.olymp {
+    width: 163px;
+}
+
+.box {
+    width: 68px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .display-1 {
+        font-family: SF Compact Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+
+
+.blue {
+    background-color: #17BEFF;
+}
+
+.blue-text {
+    color: #17BEFF;
+}
+
+.green {
+    background-color: #70C62A;
+}
+.green-text{
+   color: #70C62A;
+}
+
+.orange {
+    background-color: #FF8F04;
+}
+
+.red {
+    background-color: #E11D00;
+}
+
+.preto {
+    background-color: #121414;
+}
+
+.cinza-escuro {
+    background-color: #222127;
+}
+
+.cinza {
+    color: #BDB9B3;
+}
+
+.cinza-light {
+    color: #F2F2F2;
+}
+
+.branco {
+    color: #DAD9D8;
+}
+
+.preto-text {
+    color: #222127;
+}
